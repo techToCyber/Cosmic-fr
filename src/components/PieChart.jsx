@@ -15,6 +15,8 @@ const BasicPie = () => {
     return curr.value + acc;
   }, 0);
 
+
+  
   const transformedArray = caste_description.map((item, idx) => ({
     id: idx,
     value: item.value,

@@ -8,7 +8,6 @@ const BarChartD = () => {
   let maledata = [],
     femaledata = [],
     male_femaleData = [];
-
   if (loadingState === "LOADED") {
     const bar_graph_by_Genderchart = graphdata[0]?.bar_graph_by_Genderchart;
     femaledata = bar_graph_by_Genderchart.female;

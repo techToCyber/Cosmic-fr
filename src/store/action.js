@@ -16,4 +16,5 @@ export const fetchGraphData = (payload) => {
                 dispatch({ type: "RECEIVE_GRAPH_DATA", payload: data });
             })
     }
+    
 }

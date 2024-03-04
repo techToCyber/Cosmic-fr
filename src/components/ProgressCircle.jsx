@@ -12,6 +12,7 @@ const ProgressCircle = ({
   const colors = tokens(theme.palette.mode);
   const angle = progress * 360;
   
+  
   return (
     <Tooltip title={tooltipText} interactive>
       <Box

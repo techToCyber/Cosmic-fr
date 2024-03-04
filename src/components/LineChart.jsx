@@ -7,7 +7,6 @@ const LineChart = ({ isCustomLineColors = false, isDashboard = false,maledata,fe
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
-
   const generateLineChartData = (id, color, data, xValues) => ({
     id: id,
     color: color,
